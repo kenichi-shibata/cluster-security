@@ -34,6 +34,15 @@ Policies
 * [PodSecurityPolicies](https://github.com/freach/kubernetes-security-best-practice/tree/master/PSP)
 
 
+Secret Management
+---------------
+* Most of the time running vault in your cluster is a huge undertaking
+* If you have a full pledged secops team with a good understanding of kubernetes operators to run vault operator then it is preferred
+* However in the case of most dev teams we need a lightweight solution like sealed secrets to start encrypting secrets in gitops fashion
+* https://engineering.bitnami.com/articles/sealed-secrets.html
+* https://github.com/weaveworks/flux-get-started/blob/master/releases/redis-auth.yaml
+* https://github.com/stefanprodan/gitops-helm#managing-kubernetes-secrets
+
 CIS Kubernetes 1.4 Security Benchmark
 -----------------------------------
 * Kube Bench allows you to do the scanning of your cluster against the CIS benchmarks
