@@ -25,7 +25,7 @@ Clair
 
 Architecture
 -------------
-
+![arch](architecture.png)
 
 Policies
 ----------
@@ -38,6 +38,7 @@ CIS Kubernetes 1.4 Security Benchmark
 -----------------------------------
 * Kube Bench allows you to do the scanning of your cluster against the CIS benchmarks
 * Here is the [Security Benchmark](./benchmark.pdf)
+* https://www.cisecurity.org/benchmark/kubernetes/
 
 Resources
 -----------
