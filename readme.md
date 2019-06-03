@@ -25,7 +25,7 @@ Clair
 
 Architecture
 -------------
-![arch](architecture.png)
+![arch](arch.png)
 
 Policies
 ----------
